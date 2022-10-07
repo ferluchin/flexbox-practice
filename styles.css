@@ -14,31 +14,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
 img {
     width: 100px;
 }
 
-.hero{
+.hero {
     margin: 0px;
     background-image: url(images/torshov.jpg);
     background-size: cover;
     color: white;
-    height: 344px;
-   
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center
-
 }
 
-.activities{
+.activities {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    
+
     background-color: #F2FBEF;
     color: #1D3557;
 }
@@ -46,22 +44,22 @@ img {
 .triplete {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
-.guide{
+.guide {
     display: flex;
     margin: 30px auto;
     background-color: #A8DADC;
     color: #1D3557;
-    
+
     width: 400px;
     height: 294px;
     left: 160px;
     top: 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 0px #1D3557;
-    
+
 }
 
 #profile {
@@ -70,25 +68,26 @@ img {
     margin-top: 23px;
     border-radius: 10px;
 }
-h3{
+
+h3 {
     font-weight: bold;
 }
 
-.col-1{
-flex-direction: row;
-    
+.col-1 {
+    flex-direction: row;
+
 
     /* background-color: red; */
 }
 
-.activities-img{
-      border-radius: 50%;
+.activities-img {
+    border-radius: 50%;
 }
 
-#title{
+#title {
     margin: 100px 0 10px 0;
     background: #1D3557;
-    padding: 10px ;
+    padding: 10px;
     border-radius: 10px;
     /* flex-grow: 0px; */
 }
@@ -101,25 +100,27 @@ flex-direction: row;
 }
 
 
-#subtitle{
+#subtitle {
     /* //border: 2px solid blue; */
-    padding: 10px ;
+    padding: 10px;
     border-radius: 10px;
     font-size: 18px;
     background-color: #457B9D;
-    
+
 }
 
-.col-2{
-    
-    display: flex;    
-flex-direction: column;
+.col-2 {
+
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    
+
 }
+
 p {
     font-style: italic;
 }
+
 h3 {
     font-size: 24px;
 }
